@@ -1,5 +1,6 @@
 import { Audience } from './components/chart/Audience'
 import { DailyPlayer } from './components/chart/DailyPlayer'
+import { RepartitionPieChart } from './components/chart/RepartitionPieChart'
 import { KeyNumber } from './components/Heading/KeyNumber'
 import { FilterBar } from './components/ui/FitlerBar'
 import { SideBar } from './components/ui/SideBar'
@@ -24,6 +25,11 @@ export default function App() {
             <Audience />
           </div>
           <DailyPlayer />
+        </div>
+        <div>
+          <div>
+            <RepartitionPieChart/>
+          </div>
         </div>
       </div>
     </div >
