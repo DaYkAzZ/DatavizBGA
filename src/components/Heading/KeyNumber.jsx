@@ -1,8 +1,3 @@
-const data = [
-
-]
-
-
 export function KeyNumber() {
     return (
         <div>
